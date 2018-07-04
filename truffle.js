@@ -31,7 +31,7 @@ module.exports = {
       gas:   5000000
     }
   },
-
+  //choose version of solc compiler
   compiler: {
        version: "0.4.11",
        optimization: false
