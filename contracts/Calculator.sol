@@ -4,9 +4,9 @@ contract Calculator {
 
   uint result;
 
-  function Calculator() public {
+  function Calculator(uint init) public {
     // constructor
-    result=10;
+    result=init;
   }
 
   // returns the result

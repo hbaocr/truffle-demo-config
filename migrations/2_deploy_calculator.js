@@ -3,6 +3,7 @@ var Calculator = artifacts.require("./Calculator.sol");
 
 module.exports = function(deployer) {
   // #2 Deploy the instance of the contract
-  deployer.deploy(Calculator);//, 10);
+  var init_val=10;
+  deployer.deploy(Calculator,init_val);//, 10);
  // deployer.deploy(CalculatorV2, 10);
 };
